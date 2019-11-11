@@ -24,6 +24,21 @@ public class variableBasic {
 				System.out.println(Zahle);
 				System.out.println(Integer.MAX_VALUE);
 				System.out.println(Integer.MIN_VALUE);
+		// long - 8 byte
+				long Groﬂe_Zahl = 456;
+				System.out.println(Groﬂe_Zahl);
+				System.out.println(Long.MAX_VALUE);
+				System.out.println(Long.MIN_VALUE);
+		// float
+				float Komma_zahl = 12.34F;
+				System.out.println(Komma_zahl);
+				System.out.println(Float.MAX_VALUE);
+				System.out.println(Float.MIN_VALUE);
+		// Double
+				Double Groﬂ_Komma_zahl = 124435434.3253532534;
+				System.out.println(Groﬂ_Komma_zahl);
+				System.out.println(Double.MAX_VALUE);
+				System.out.println(Double.MIN_VALUE);
 	}
 
 }
