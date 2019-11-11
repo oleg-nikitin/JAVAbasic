@@ -39,6 +39,12 @@ public class variableBasic {
 				System.out.println(Groﬂ_Komma_zahl);
 				System.out.println(Double.MAX_VALUE);
 				System.out.println(Double.MIN_VALUE);
+		// char 
+				char zeichen = 'a';
+				System.out.println(zeichen);
+		// String
+				String zeichenen = "abcd";
+				System.out.println(zeichenen);
 	}
 
 }
