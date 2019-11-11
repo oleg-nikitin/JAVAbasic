@@ -1,0 +1,24 @@
+package javaBasic;
+
+public class einmaleins {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+		
+			
+			for (int k = 1; k <= 10; k = 1 + 1)
+				for (int j = 0; j < 11; j = j+1)
+				System.out.println(k*j);
+				      
+	        }
+
+	        
+
+	}
+	
+
+
