@@ -9,10 +9,14 @@ public class einmaleins {
 		
 
 		
-			
-			for (int k = 1; k <= 10; k = 1 + 1)
-				for (int j = 0; j < 11; j = j+1)
-				System.out.println(k*j);
+for (int k = 1; k <= 10;) { 
+				k = k + 1;
+				for (int j = 0; j < 11; j = j+1) { 
+					j = j+1;
+					System.out.println(k*j);
+					}
+					
+			}
 				      
 	        }
 
