@@ -43,7 +43,7 @@ public class variableBasic {
 				char zeichen = 'a';
 				System.out.println(zeichen);
 		// String
-				String zeichenen = "abcd";
+				String zeichenen = "abcdefghiklmn";
 				System.out.println(zeichenen);
 	}
 
