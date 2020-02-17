@@ -17,6 +17,7 @@ public class Sort {
 					namen.add(line);
 				}
 				for (String s : namen);
+		
 				System.out.print(namen);
 		}
 }
