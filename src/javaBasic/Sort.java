@@ -1,22 +1,22 @@
 package javaBasic;
-import java. util. Arrays;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
 
 public class Sort {
 
 	public static void main(String[] args) {
-		 int [] array = {9,1,5,7,4,6,3,2,8,0};
-		   int temp;
-		   for (int i = 1; i < array.length; i++) {
-		    for (int j = i; j > 0; j--) {
-		     if (array[j] < array [j - 1]) {
-		      temp = array[j];
-		      array[j] = array[j - 1];
-		      array[j - 1] = temp;
-		     }
-		    }
-		   }
-		   for (int i = 0; i < array.length; i++) {
-		     System.out.print(array[i]);
-		   }
-		  }
+		Scanner eingabe = new Scanner(System.in);
+		String line = "";
+				
+				ArrayList<String> namen = new ArrayList<String>();
+				while (! line.contentEquals("x")) {
+					line = eingabe.nextLine();
+					namen.add(line);
+				}
+				for (String s : namen);
+				System.out.print(namen);
 		}
+}
